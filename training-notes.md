@@ -36,3 +36,13 @@ GitHub is an online platform used to host Git repositories and collaborate with 
 - Pull Requests allow changes to be reviewed before merging.
 - Push sends local commits to GitHub.
 - Pull retrieves changes from GitHub.
+
+## What I Learned Today
+
+- I learned how Git tracks changes in a project.
+- I learned how GitHub hosts Git repositories.
+- I learned how to create and work with branches.
+- I learned how commits save changes in project history.
+- I learned how Pull Requests are used to review changes.
+- I learned how to push changes to GitHub.
+- I learned how to pull changes from GitHub.

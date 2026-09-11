@@ -21,3 +21,7 @@ Practice the basic Git and GitHub workflow used in software teams.
 ## Repository Description
 
 This repository contains my hands-on practice for Git and GitHub fundamentals as part of the SJ Coders Software internship training program.
+
+## Repository Description
+
+This repository contains my hands-on practice for Git and GitHub fundamentals as part of the SJ Coders Software internship training program.
