@@ -4,7 +4,7 @@
 
 Name: Sarthak Wankhade
 
-Training Date: 25 August 2026
+Training Date: 08 Sept 2026
 
 ## What is Git?
 
