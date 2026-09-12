@@ -1,27 +1,60 @@
-# SJ Coders – Git & GitHub Training
+# SJ Coders Internship Training & Learning
 
-## Intern
+This repository contains my learning journey, practical work, assignments, and hands-on training completed during my internship at **SJ Coders Software**.
 
-Name: Sarthak Wankhade
+The repository is maintained to organize my internship work in a structured and professional Git and GitHub workflow.
 
-Date: 08 Sept 2026
+---
 
-## Objective
+## 👨‍💻 Intern Details
 
-Practice the basic Git and GitHub workflow used in software teams.
+| Information | Details |
+|------------|---------|
+| **Name** | Sarthak Wankhade |
+| **Organization** | SJ Coders Software |
+| **Program** | Internship Training |
+| **Repository Purpose** | Training, Learning & Practical Assignments |
 
-## Topics Practiced
+---
 
-- Repository and clone
-- Stage and commit
-- Push and pull
-- Branching
-- Pull Request and merge
+## 🎯 Repository Objective
 
-## Repository Description
+The main objectives of this repository are:
 
-This repository contains my hands-on practice for Git and GitHub fundamentals as part of the SJ Coders Software internship training program.
+- To maintain a record of my internship training and learning.
+- To practice industry-standard Git and GitHub workflows.
+- To complete and organize practical assignments.
+- To maintain separate branches for different training days and assignments.
+- To submit completed work through Pull Requests.
+- To track my technical growth throughout the internship.
 
-## Repository Description
+---
 
-This repository contains my hands-on practice for Git and GitHub fundamentals as part of the SJ Coders Software internship training program.
+## 📚 Training & Learning
+
+During the internship, I will learn and work with different:
+
+- Programming concepts
+- Software development concepts
+- Technologies and frameworks
+- Development tools
+- Git and GitHub workflows
+- Practical assignments
+- Projects and implementation tasks
+
+The training content will be organized according to the respective training day or assignment.
+
+---
+
+## 🌿 Git Branching Strategy
+
+The `main` branch is maintained as the **stable repository overview and documentation branch**.
+
+Actual training and assignment work will be completed in separate branches.
+
+### Branch Naming Convention
+
+Training branches will follow this naming pattern:
+
+```text
+training/day-XX-topic
