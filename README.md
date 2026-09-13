@@ -1,60 +1,101 @@
-# SJ Coders Internship Training & Learning
+# Day 3 - Employee Management Mini Full-Stack Application
 
-This repository contains my learning journey, practical work, assignments, and hands-on training completed during my internship at **SJ Coders Software**.
+## SJ Coders Software - Intern Technical Training
 
-The repository is maintained to organize my internship work in a structured and professional Git and GitHub workflow.
+A mini full-stack Employee Management application developed as part of the Day 3 training assignment.
 
----
-
-## 👨‍💻 Intern Details
-
-| Information | Details |
-|------------|---------|
-| **Name** | Sarthak Wankhade |
-| **Organization** | SJ Coders Software |
-| **Program** | Internship Training |
-| **Repository Purpose** | Training, Learning & Practical Assignments |
+The application demonstrates how a frontend communicates with a Spring Boot REST API, how the backend processes employee data, and how the data is stored and retrieved from a MySQL relational database.
 
 ---
 
-## 🎯 Repository Objective
+## Project Objective
 
-The main objectives of this repository are:
+The main objective of this project is to understand the complete application flow:
 
-- To maintain a record of my internship training and learning.
-- To practice industry-standard Git and GitHub workflows.
-- To complete and organize practical assignments.
-- To maintain separate branches for different training days and assignments.
-- To submit completed work through Pull Requests.
-- To track my technical growth throughout the internship.
+Frontend → REST API → Spring Boot → JPA/Hibernate → MySQL → JSON → Frontend
 
----
+The application allows users to:
 
-## 📚 Training & Learning
-
-During the internship, I will learn and work with different:
-
-- Programming concepts
-- Software development concepts
-- Technologies and frameworks
-- Development tools
-- Git and GitHub workflows
-- Practical assignments
-- Projects and implementation tasks
-
-The training content will be organized according to the respective training day or assignment.
+- Register employees
+- Save employee records
+- View all employees
+- Search employees
+- Validate required fields and email
+- Display saved employee records in a Bootstrap table
 
 ---
 
-## 🌿 Git Branching Strategy
+## Technologies Used
 
-The `main` branch is maintained as the **stable repository overview and documentation branch**.
+### Backend
 
-Actual training and assignment work will be completed in separate branches.
+- Java 21
+- Spring Boot
+- Spring Web
+- Spring Data JPA
+- Hibernate
+- Bean Validation
+- Maven
 
-### Branch Naming Convention
+### Database
 
-Training branches will follow this naming pattern:
+- MySQL 8
+
+### Frontend
+
+- HTML5
+- CSS3
+- Bootstrap 5
+- JavaScript
+- Fetch API
+
+### Development Tools
+
+- Visual Studio Code
+- Git
+- GitHub
+- Live Server
+
+---
+
+## Project Structure
 
 ```text
-training/day-XX-topic
+day-03-employee-management/
+│
+├── backend/
+│   ├── src/
+│   │   └── main/
+│   │       ├── java/
+│   │       │   └── com/
+│   │       │       └── sjcoders/
+│   │       │           └── training/
+│   │       │               ├── controller/
+│   │       │               │   └── EmployeeController.java
+│   │       │               │
+│   │       │               ├── service/
+│   │       │               │   └── EmployeeService.java
+│   │       │               │
+│   │       │               ├── repository/
+│   │       │               │   └── EmployeeRepository.java
+│   │       │               │
+│   │       │               ├── model/
+│   │       │               │   └── Employee.java
+│   │       │               │
+│   │       │               └── EmployeeManagementApplication.java
+│   │       │
+│   │       └── resources/
+│   │           └── application.properties
+│   │
+│   ├── pom.xml
+│   ├── mvnw
+│   └── mvnw.cmd
+│
+├── frontend/
+│   ├── index.html
+│   ├── css/
+│   │   └── style.css
+│   └── js/
+│       └── app.js
+│
+└── README.md
